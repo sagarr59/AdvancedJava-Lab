@@ -21,7 +21,7 @@ public class NumberComparison {
         JTextField txt2 = new JTextField();
 
         JButton btnCompare = new JButton("Compare");
-        JLabel lblResult = new JLabel("Result:");
+        JLabel lblResult = new JLabel("Result: ");
 
         // Adding components to frame
         frame.add(lbl1);
