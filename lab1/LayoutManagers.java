@@ -6,7 +6,7 @@ import java.awt.*;
 public class LayoutManagers extends JFrame {
 
     public LayoutManagers() {
-        setTitle("Layout Managers");
+        setTitle("Layout Managers ");
         setSize(800, 600);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLayout(new GridLayout(2, 2)); // Arranging four panels in 2x2 grid
