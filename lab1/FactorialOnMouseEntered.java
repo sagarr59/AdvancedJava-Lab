@@ -23,7 +23,7 @@ public class FactorialOnMouseEntered {
                     long factorial = calculateFactorial(number);
                     resultLabel.setText("Factorial of " + number + " is " + factorial);
                 } catch (NumberFormatException ex) {
-                    resultLabel.setText("Please enter a valid integer");
+                    resultLabel.setText("Please enter a valid integer.");
                 }
             }
         });
