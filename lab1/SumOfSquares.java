@@ -20,7 +20,7 @@ public class SumOfSquares {
             try {
                 double value1 = Double.parseDouble(textField1.getText());
                 double value2 = Double.parseDouble(textField2.getText());
-                resultLabel.setText("Result: " + (value1 * value1 + value2 * value2));
+                resultLabel.setText("Result : " + (value1 * value1 + value2 * value2));
             } catch (NumberFormatException ex) {
                 resultLabel.setText("Entered invalid numbers");
             }
