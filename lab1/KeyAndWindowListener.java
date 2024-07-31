@@ -5,16 +5,16 @@ import java.awt.event.*;
 
 public class KeyAndWindowListener {
     public static void main(String[] args) {
-        // Create a JFrame
+
         JFrame frame = new JFrame("Key and Window Listener");
         frame.setSize(400, 300);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
-        // Create a JTextArea
+        // Creating JTextArea
         JTextArea textArea = new JTextArea();
         frame.add(textArea);
 
-        // Add a KeyListener to the JTextArea
+        // Adding KeyListener to the JTextArea
         textArea.addKeyListener(new KeyAdapter() {
             @Override
             public void keyTyped(KeyEvent e) {
@@ -32,7 +32,7 @@ public class KeyAndWindowListener {
             }
         });
 
-        // Add a WindowListener to the JFrame
+        // Adding WindowListener to the JFrame
         frame.addWindowListener(new WindowAdapter() {
             @Override
             public void windowClosing(WindowEvent e) {
@@ -45,7 +45,6 @@ public class KeyAndWindowListener {
             }
         });
 
-        // Make the JFrame visible
         frame.setVisible(true);
     }
 }
