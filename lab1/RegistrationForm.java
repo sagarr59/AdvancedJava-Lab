@@ -52,6 +52,6 @@ public class RegistrationForm {
         // Setting frame visibility
         frame.setVisible(true);
 
-        //ActionListner need to be added for handling action events
+        //ActionListener need to be added for handling action events
     }
 }
