@@ -19,7 +19,7 @@ public class ImageInJFrame extends JFrame {
         add(label);
 
         setIconImage(imageIcon.getImage());
-
+        //to show
         setVisible(true);
     }
 
