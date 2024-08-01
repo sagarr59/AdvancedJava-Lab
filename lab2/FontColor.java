@@ -17,7 +17,7 @@ public class FontColor {
         label.setForeground(Color.BLUE); // Change font color
 
         // Creating a button and changing its font and color
-        JButton button = new JButton("Click Here");
+        JButton button = new JButton("Click Me");
         button.setFont(new Font("Serif", Font.ITALIC, 35)); // Change font
         button.setForeground(Color.RED); // Change font color
         button.setBackground(Color.YELLOW); // Change background color
