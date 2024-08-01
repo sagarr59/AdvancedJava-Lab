@@ -1,3 +1,5 @@
+//DB- studentdb and table- student(id,name,age) already created in Database
+
 package lab3;
 
 import java.sql.*;
