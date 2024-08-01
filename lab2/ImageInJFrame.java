@@ -1,7 +1,6 @@
 package lab2;
 
 import javax.swing.*;
-import java.awt.*;
 
 public class ImageInJFrame extends JFrame {
 

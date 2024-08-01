@@ -12,7 +12,7 @@ public class FontColor {
         JPanel panel = new JPanel();
 
         // Creating a label and changing its font and color
-        JLabel label = new JLabel("Hello, Swing!");
+        JLabel label = new JLabel("Hello, Sagar!");
         label.setFont(new Font("Arial", Font.BOLD, 40)); // Change font
         label.setForeground(Color.BLUE); // Change font color
 
