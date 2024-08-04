@@ -13,11 +13,13 @@ public class SumCalculator {
         frame.setLayout(new java.awt.FlowLayout());
 
         JTextField textField1 = new JTextField(10);
+        JLabel sum = new JLabel("+");
         JTextField textField2 = new JTextField(10);
         JButton button = new JButton("Calculate");
         JLabel resultLabel = new JLabel("Sum: ");
 
         frame.add(textField1);
+        frame.add(sum);
         frame.add(textField2);
         frame.add(button);
         frame.add(resultLabel);
