@@ -1,5 +1,5 @@
 package lab3;
-
+//delete table data
 import java.sql.*;
 
 class DeleteFromTable {
