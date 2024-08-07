@@ -1,0 +1,10 @@
+<web-app>
+    <servlet>
+        <servlet-name>FormProcessorServlet</servlet-name>
+        <servlet-class>FormProcessorServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>FormProcessorServlet</servlet-name>
+        <url-pattern>/process</url-pattern>
+    </servlet-mapping>
+</web-app>
